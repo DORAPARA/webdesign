@@ -1,0 +1,1104 @@
+/*  ================================================================================
+ * 2015 Gamania Digital Entertainment Co., Ltd. All Rights Reserved.
+================================================================================  */
+
+/* CSS Document */
+ul, il{
+	list-style-image: none;
+	list-style-type: none;}
+
+html {	overflow-x: hidden;}
+*, body, html {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: "微軟正黑體", Arial;
+	font-size: 16px;
+}
+a {
+ text-decoration: none;
+ outline: none; /* for Firefox */
+
+}
+
+a:visited {
+	background: none;
+	font-weight: normal;
+	}
+.ie6 img {	width:100%;}
+img{height: auto;width: 100%;}
+img{ border:0px; margin:0px; padding:0px;}
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+}*/
+
+/*---------------------------------------------*/
+body{
+	background-image: url(../img/sb_index_bg1001.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	/*	background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-webkit-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	-ms-background-size: 100% auto;*/
+	background-color: #eee;
+}
+.row{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.up{	margin-top: 0px;}
+
+.container{
+	width: 100%;
+	max-width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	}
+.page-header{
+	padding: 0px;
+	margin-top: 420px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.page-header h1{
+	text-indent: -9999px;}
+.page-header h1 a{
+	display: block;
+	clear: none;
+	height: 220px;
+	width: 270px;
+	text-decoration: none;
+	position: absolute;
+	left: 50%;
+	margin-top: -190px;
+	margin-left: -130px;
+	/*background-color: rgba(0,0,0,0.5);*/
+}
+.sfbBox{
+	display: block;
+	max-width: 338px;
+	width: 338px;
+	overflow: hidden;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.sfbBox .sfbmain{
+	background-image: url(../img/fb_bg_02.png);
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	width: 100%;
+	background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-webkit-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	-ms-background-size: 100% auto;
+	text-align: center;
+}
+
+.fb-page{width: 90%;}
+
+.AppBox{
+	width: 237px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 99;
+	left: 50%;
+	top: 350px;
+	margin-left: 210px;
+}
+.app-icon{
+	display: none;
+	float: left;
+	height: 150px;
+	width: 150px;
+	max-height: 180px;
+	max-width: 180px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.app{
+	background-image: url(../img/appbox.png);
+	/*background-image: url(../img/appbox_L.png);*/
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-webkit-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	-ms-background-size: 100% auto;
+	display: block;
+	height: 237px;
+	width: 237px;
+	max-height: 297px;
+	max-width: 532px;
+	/*	margin-right: auto;
+	margin-left: auto;
+	clear: both;*/
+/*	margin-top: 10px;
+	margin-bottom: 10px;*/
+	overflow: hidden;
+	float: right;
+}
+.storeBox{
+	display: block;
+	height: 237px;
+	width: 237px;
+	max-height: 237px;
+	max-width: 237px;
+	overflow: hidden;
+	padding-top: 18px;
+}
+.google,
+.appstore,
+.playphone{
+	display: block;
+	clear: both;
+	width: 190px;
+	max-width: 190px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.google:hover,
+.appstore:hover,
+.playphone:hover{
+	margin-top: 6px;
+}
+
+.youtube a{
+	display: block;
+	height: 202px;
+	width: 199px;
+	background-image: url(../img/YouTube_s.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+.youtube a:hover{ opacity:.9;}
+
+.youtube2{
+	display: none;/*block*/
+	height: 299px;
+	width: 532px;
+	max-height: 299px;
+	max-width: 532px;
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	/*padding-top: 30px;*/
+	height: 0;
+	overflow: hidden;
+	display: none;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.sbtnBox{
+	width: 100%;
+	display: block;
+/*	overflow: hidden;*/
+	margin-top: 245px;
+}
+.sbtnBox ul{
+	height: 98px;
+	width: 100%;
+	margin-top: 45px;
+	padding-top: 4px;
+}
+.sbtnBox li{
+/*	overflow: hidden;*/
+	display: block;
+	float: left;
+	width: 100%;
+	height: auto;
+	max-height: 98px;
+	max-width: 215px;
+	margin-right: 10px;
+}
+.sbtnBox li.s3 a,
+.sbtnBox li.s1 a,
+.sbtnBox li.s2 a
+{
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-webkit-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	-ms-background-size: 100% auto;
+	display: block;
+	float: left;
+	width: 100%;
+	height: 98px;
+}
+
+.sbtnBox li.s1 a{
+	background-image: url(../img/Raiders.png);
+}
+.sbtnBox li.s2 a{
+	background-image: url(../img/FAQ.png);
+}
+.sbtnBox li.s3 a{background-image: url(../img/beginner.png);}
+/*.sbtnBox li.s3{background-image: url(../img/beginner_off.png);}*/
+.sbtnBox li.s1 a:hover,
+.sbtnBox li.s2 a:hover
+{
+	display: block;
+	float: left;
+	width: 100%;
+	height: 98px;
+	margin-top: 1px;
+}
+.sbtnBox li.s3 a{margin-top: -4px;}
+.sbtnBox li.s3 a:hover{margin-top: -3px;}
+/*---------------------------------------------*/
+.ad_news{
+	display: block;
+	float: left;
+	overflow: hidden;
+	margin-top: 0px;
+}
+.ad_news .tit {
+	width: 100%;
+	max-width: 190px;
+	display: block;
+	height: 55px;
+	clear: both;
+	margin-bottom: 10px;
+}
+#miniframe{
+	width: 100%;
+	height: 415px;
+	max-width: 608px;
+	max-height: 415px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	z-index: 90;
+}
+/*---------------------------------------------*/
+.gameBox{
+	display: block;
+	width: 100%;
+	max-width: 960px;
+	margin-left: -10px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	clear: both;
+	height: 490px;
+	max-height: 490px;
+	background-color: rgba(241,231,202,.5);
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.sb-items{
+	display: block;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	}
+.item2{
+	margin-right: 10px;
+}
+/*----------------------------------------*/
+/*------------------------------------footer*/
+footer {
+	clear: both;
+	display: block;
+	width: 100%;
+	background-color: #fff;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.fmain{
+	max-width: 960px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.ghg{
+	height: 61px;
+	width: 221px;
+	max-height: 61px;
+	max-width: 221px;
+}
+.Lv6{height: 35px;
+	width: 35px;
+	max-height: 35px;
+	max-width: 35px;}
+.cp{
+height: 33px;
+width: 339px;
+max-height: 33px;
+	max-width: 339px;}
+
+/*-----------------------------------------------------*/
+@media (max-width: 1024px) {
+body{
+	background-size: 150% auto;
+	-moz-background-size: 150% auto;
+	-webkit-background-size: 150% auto;
+	-o-background-size: 150% auto;
+	-ms-background-size: 150% auto;
+}
+.page-header{margin-top: 260px;}
+.page-header h1 a{
+	height: 190px;
+	width: 220px;
+	margin-top: -90px;
+	margin-left: -110px;
+}
+.sbtnBox{margin-top: 90px;}
+.AppBox{margin-top: -180px;}
+}
+@media (max-width: 980px) {
+body{
+	background-size: 150% auto;
+	-moz-background-size: 150% auto;
+	-webkit-background-size: 150% auto;
+	-o-background-size: 150% auto;
+	-ms-background-size: 150% auto;
+}
+.container{padding-left: 30px;}
+.page-header{margin-top: 260px;}
+.page-header h1 a{
+	height: 180px;
+	width: 200px;
+	margin-left:-100px;
+	margin-top:-90px;
+}
+.sbtnBox{margin-top: 220px;}
+.AppBox{margin-top: -250px;}
+.ad_news{margin-top: -25px;}
+.up{margin-top: -30px;}
+}
+/*fb*/
+@media (max-width: 900px) {.sfbBox{display: none;}}
+
+@media (max-width: 900px) {
+body{
+	background-position: center 0px;
+	background-size: 150% auto;
+	-moz-background-size: 150% auto;
+	-webkit-background-size: 150% auto;
+	-o-background-size: 150% auto;
+	-ms-background-size: 150% auto;
+	background-image: url(../img/sb_index_bg1001.jpg);
+}
+.page-header{margin-top: 260px;}
+.page-header h1 a{
+	height: 170px;
+	width: 180px;
+	margin-left:-90px;
+	margin-top:-105px;
+}
+.youtube a{ display: none;}
+.youtube2{display: block;	margin-top: 20px;}
+.video-container {
+display: block;
+}
+.sbtnBox{
+	width: 90%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -410px;
+	padding-left: 20px;
+}
+.sbtnBox ul{
+	width: 100%;
+	clear: both;
+}
+
+.AppBox{
+	width: 100%;
+	margin-left: auto;
+	clear: both;
+	margin-right: auto;
+	display: block;
+	position: static;
+	margin-top: 200px;
+}
+
+.app-icon{
+	display: block;
+	float: left;
+	height: 180px;
+	width: 180px;
+	margin-left: 30px;
+	margin-top: 30px
+	}
+.app{
+	/*background-image: url(../img/appbox.png);*/
+	background-image: url(../img/appbox_L.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	-webkit-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	-ms-background-size: 100% auto;
+	display: block;
+	height: 251px;
+	width: 450px;
+	max-height: 297px;
+	max-width: 532px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	float: none;
+}
+.ad_news{
+	display: block;
+	float: none;
+	overflow: hidden;
+	margin-top: 270px;
+}
+.ad_news .tit {
+	width: 90%;
+	max-width: 190px;
+	display: block;
+	height: 55px;
+	clear: both;
+	margin-bottom: 10px;
+	margin-left: 135px;
+}
+
+#miniframe{
+	width: 100%;
+	height: 415px;
+	max-width: 608px;
+	max-height: 415px;
+	display: block;
+	padding: 0px;
+	overflow: hidden;
+	clear: both;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.gameBox{
+	display: block;
+	width: 100%;
+	margin-left: -10px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	height: auto;
+	padding-left: 10px;
+	padding-top: 10px;
+	background-color: transparent;
+}
+	}
+@media (max-width: 800px) {
+.ad_news .tit {margin-left: 87px;}
+.page-header h1 a{
+	height: 150px;
+	width: 180px;
+	margin-left:-90px;
+	margin-top:-125px;
+}
+}
+@media (max-width: 768px) {
+body{
+	background-position: center 0px;
+	background-size: 170% auto;
+	-moz-background-size: 170% auto;
+	-webkit-background-size: 170% auto;
+	-o-background-size: 170% auto;
+	-ms-background-size: 170% auto;
+	background-image: url(../img/sb_index_bg1001.jpg);
+}
+.page-header{margin-top: 250px;}
+.page-header h1 a{
+	height: 160px;
+	width: 180px;
+	margin-left:-90px;
+	margin-top:-100px;
+}
+.sbtnBox{
+	width: 100%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -410px;
+}
+.sbtnBox li{
+	width: 100%;
+	height: auto;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.ad_news .tit {margin-left: 71px;}
+}
+
+@media (max-width: 667px) {
+body{
+	background-position: center 0px;
+	background-size: 170% auto;
+	-moz-background-size: 170% auto;
+	-webkit-background-size: 170% auto;
+	-o-background-size: 170% auto;
+	-ms-background-size: 170% auto;
+	background-image: url(../img/sb_index_bg1001.jpg);
+}
+.container{padding-left: 15px;}
+.page-header{margin-top: 200px;}
+.page-header h1 a{
+	height: 130px;
+	width: 180px;
+	margin-left:-90px;
+	margin-top:-65px;
+}
+.sbtnBox{width: 95%; margin-top: -390px;}
+
+.sbtnBox li{
+	display: block;
+	float: left;
+	width: 176px;
+	height: 70px;
+	margin-left: 15px;
+	margin-right: 10px;
+}
+.sbtnBox li.s1 a,
+.sbtnBox li.s2 a,
+.sbtnBox li.s3 a{
+	display: block;
+	float: left;
+	width: 176px;
+	height: 70px;
+}
+.sbtnBox li.s3 a{margin-top: 0px;}
+.sbtnBox li.s3 a:hover{margin-top: 1px;}
+.sbtnBox li.s1 a{background-image: url(../img/deposit2.png);}
+.sbtnBox li.s2 a{background-image: url(../img/exchange2.png);}
+.sbtnBox li.s3 a{background-image: url(../img/beginner2.png);}
+.ad_news{margin-top: 240px;}
+footer {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.ad_news .tit {margin-left: 37px;}
+}
+@media (max-width: 640px) {
+body{
+	background-position: center 0px;
+	background-size: 170% auto;
+	-moz-background-size: 170% auto;
+	-webkit-background-size: 170% auto;
+	-o-background-size: 170% auto;
+	-ms-background-size: 170% auto;
+	background-image: url(../img/sb_index_bg1001.jpg);
+}
+.page-header{margin-top: 170px;}
+.page-header h1 a{
+	height: 130px;
+	width: 170px;
+	margin-left:-90px;
+	margin-top:-40px;
+}
+.sbtnBox{
+	width: 100%;
+	margin-top: -390px;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+}
+.sbtnBox ul{
+	width: 100%;
+	clear: both;
+}
+.sbtnBox li a{
+	width: 150px;
+	height: 60px;
+}
+.ad_news .tit {margin-top: -20px; margin-left: 15px;}
+	}
+@media (max-width: 604px) {
+body{
+	background-position: center 0px;
+	background-size: 170% auto;
+	-moz-background-size: 170% auto;
+	-webkit-background-size: 170% auto;
+	-o-background-size: 170% auto;
+	-ms-background-size: 170% auto;
+	background-image: url(../img/sb_index_bg1001.jpg);
+}
+.page-header{margin-top: 150px;}
+.page-header h1 a{
+	height: 120px;
+	width: 140px;
+	margin-left:-70px;
+	margin-top:-30px;
+}
+.sbtnBox{
+	width: 100%;
+	margin-top: -375px;
+}
+.sbtnBox ul{
+	width: 90%;
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+}
+.sbtnBox li{
+	width: 140px;
+	height: 56px;
+}
+.sbtnBox li.s1 a,
+.sbtnBox li.s2 a,
+.sbtnBox li.s3 a{
+	width: 140px;
+	height: 56px;
+}
+.ad_news{
+	display: block;
+	float: none;
+	overflow: hidden;
+	margin-top: 220px;
+	}
+.ad_news .tit {
+	width: 90%;
+	margin-top: -40px;
+}
+#miniframe{	width: 90%;}
+
+}
+@media (max-width: 568px) {
+body{
+	background-position: center 0px;
+	background-size: 170% auto;
+	-moz-background-size: 170% auto;
+	-webkit-background-size: 170% auto;
+	-o-background-size: 170% auto;
+	-ms-background-size: 170% auto;
+	background-image: url(../img/sb_index_bg5.jpg);
+}
+.page-header{margin-top: 220px;}
+.page-header h1 a{
+	height: 160px;
+	width: 180px;
+	margin-left:-90px;
+	margin-top:-50px;
+}
+.sbtnBox{
+	width: 100%;
+	margin-top: -375px;
+}
+.sbtnBox ul{
+	width: 95%;
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+}
+.sbtnBox li{
+	width: 140px;
+	height: 56px;
+}
+.sbtnBox li.s1 a,
+.sbtnBox li.s2 a,
+.sbtnBox li.s3 a{
+	width: 140px;
+	height: 56px;
+}
+.ad_news{
+	display: block;
+	float: none;
+	overflow: hidden;
+	margin-top: 220px;
+	}
+.ad_news .tit {
+	width: 90%;
+	margin-top: -40px;
+}
+#miniframe{	width: 90%;}
+footer {
+	padding-bottom: 10px;
+}
+}
+@media (max-width: 480px) {
+body{
+	background-position: center 0px;
+	background-size: 180% auto;
+	-moz-background-size: 180% auto;
+	-webkit-background-size: 180% auto;
+	-o-background-size: 180% auto;
+	-ms-background-size: 180% auto;
+	background-image: url(../img/sb_index_bg5.jpg);
+}
+.page-header{margin-top: 240px;}
+.page-header h1 a{
+	height: 160px;
+	width: 180px;
+	margin-left:-90px;
+	margin-top:-90px;
+}
+.AppBox{margin-top: 160px;}
+.sbtnBox{
+	width: 100%;
+	margin-top: -360px;
+}
+.app-icon{
+	height: 160px;
+	width: 160px;
+	margin-left: 30px;
+	margin-top: 30px
+	}
+.app{
+	height: 223px;
+	width: 400px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.storeBox{
+	height: 200px;
+	width: 200px;
+	padding-top: 18px;
+}
+
+.sbtnBox ul{
+	width: 100%;
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+}
+.sbtnBox li{
+	width: 140px;
+	height: 56px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.sbtnBox li.s1 a,
+.sbtnBox li.s2 a,
+.sbtnBox li.s3 a{
+	width: 140px;
+	height: 56px;
+}
+.ad_news{
+	display: block;
+	float: none;
+	overflow: hidden;
+	margin-top: 220px;
+	}
+
+#miniframe{	width: 90%;}
+.ad_news .tit {	margin-top: -70px;}
+.youtube2{width: 90%;}
+.gameBox{margin-top: -80px;}
+}
+
+@media (max-width: 479px) {
+.cp{width: 320px;height: auto;}
+.Lv6{	margin-top: 10px;}
+}
+
+@media (max-width: 414px) {
+body{
+	background-position: center 0px;
+	background-size: 180% auto;
+	-moz-background-size: 180% auto;
+	-webkit-background-size: 180% auto;
+	-o-background-size: 180% auto;
+	-ms-background-size: 180% auto;
+	background-image: url(../img/sb_index_bg5.jpg);
+}
+.page-header{margin-top: 180px;}
+.page-header h1 a{
+	height: 130px;
+	width: 180px;
+	margin-left:-90px;
+	margin-top:-65px;
+}
+.AppBox{margin-top: 150px;}
+.sbtnBox{
+	width: 100%;
+	margin-top: -340px;
+}
+.sbtnBox ul{
+	width: 100%;
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+}
+.sbtnBox li{
+	width: 125px;
+	height: 50px;
+	margin-right: 5px;
+	margin-left: 0px;
+}
+.sbtnBox li.s1 a,
+.sbtnBox li.s2 a,
+.sbtnBox li.s3 a{
+	width: 125px;
+	height: 50px;
+}
+.app-icon{
+	height: 150px;
+	width: 150px;
+	margin-left: 0px;
+	margin-top: 5px
+	}
+.app{
+	width: 90%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 20px;
+}
+.storeBox{
+	height: auto;
+	width: 160px;
+	padding-top: 0px;
+	float: right;
+}
+.google,
+.appstore,
+.playphone{	width: 100%;}
+
+.ad_news{
+	display: block;
+	float: none;
+	overflow: hidden;
+	margin-top: 200px;
+	}
+.ad_news .tit {
+	width: 80%;
+	margin-top: -100px;
+}
+#miniframe{
+	width: 90%;
+	height: 415px;
+	display: block;
+	overflow: hidden;
+	z-index: 999;
+	position: relative;
+}
+.gameBox{margin-top: -100px;}
+	}
+@media (max-width: 384px) {
+body{
+	background-position: center 0px;
+	background-size: 180% auto;
+	-moz-background-size: 180% auto;
+	-webkit-background-size: 180% auto;
+	-o-background-size: 180% auto;
+	-ms-background-size: 180% auto;
+	background-image: url(../img/sb_index_bg5.jpg);
+}
+.page-header{margin-top: 60px;}
+.page-header h1 a{
+	height: 100px;
+	width: 180px;
+	margin-left:-90px;
+	margin-top:50px;
+}
+.AppBox{margin-top: 250px;}
+.sbtnBox{
+	width: 100%;
+	margin-top: -340px;
+}
+.sbtnBox ul{
+	width: 100%;
+	clear: both;
+	margin-left: -5px;
+	padding-left: 0px;
+}
+.sbtnBox li{
+	width: 115px;
+	height: 46px;
+	margin-right: 5px;
+	margin-left: 0px;
+}
+.sbtnBox li.s1 a,
+.sbtnBox li.s2 a,
+.sbtnBox li.s3 a{
+	width: 115px;
+	height: 46px;
+}
+.app-icon{
+	height: 140px;
+	width: 140px;
+	margin-left: 10px;
+	margin-top: 10px
+	}
+.app{
+	width: 90%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.storeBox{
+	height: auto;
+	width: 160px;
+	padding-top: 0px;
+	float: right;
+	margin-right: 5px;
+}
+
+.ad_news{
+	display: block;
+	float: none;
+	overflow: hidden;
+	margin-top: 190px;
+	}
+.ad_news .tit {
+	width: 150px;
+	margin-top: -110px;
+}
+.gameBox{margin-top: -100px;}
+#miniframe{width: 95%;}
+	}
+@media (max-width: 375px) {
+.sbtnBox ul{
+	width: 100%;
+	clear: both;
+	margin-left: -5px;
+	padding-left: 0px;
+}
+.sbtnBox li{
+	width: 110px;
+	height: 44px;
+	margin-right: 5px;
+	margin-left: 0px;
+}
+.sbtnBox li.s1 a,
+.sbtnBox li.s2 a,
+.sbtnBox li.s3 a{
+	width: 110px;
+	height: 44px;
+}
+#miniframe{width: 97%;}
+	}
+@media (max-width: 360px) {
+.page-header{margin-top: 40px;}
+.sbtnBox ul{
+	width: 100%;
+	clear: both;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.sbtnBox li{
+	width: 100px;
+	height: 40px;
+	margin-right: 5px;
+	margin-left: 0px;
+}
+.sbtnBox li.s1 a,
+.sbtnBox li.s2 a,
+.sbtnBox li.s3 a{
+	width: 100px;
+	height: 40px;
+}
+.app-icon{
+	height: 130px;
+	width: 130px;
+	margin-left: 0px;
+	margin-top: 5px
+	}
+.app{
+	width: 90%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 15px;
+}
+.storeBox{
+	height: auto;
+	width: 140px;
+	padding-top: 0px;
+	float: right;
+}
+.youtube2{margin-top: 30px;}
+.gameBox{margin-top: -130px;}
+#miniframe{width: 97%;}
+	}
+@media (max-width: 320px) {
+	body{
+	background-position: center 0px;
+	background-size: 180% auto;
+	-moz-background-size: 180% auto;
+	-webkit-background-size: 180% auto;
+	-o-background-size: 180% auto;
+	-ms-background-size: 180% auto;
+}
+.page-header{margin-top: 10px;}
+.sbtnBox ul{
+	width: 100%;
+	clear: both;
+	margin-left: -10px;
+	padding-left: 0px;
+}
+.sbtnBox li{
+	width: 100px;
+	height: 40px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.sbtnBox li.s1 a,
+.sbtnBox li.s2 a,
+.sbtnBox li.s3 a{
+	width: 100px;
+	height: 40px;
+}
+.app-icon{
+	height: 110px;
+	width: 110px;
+	margin-left: 10px;
+	margin-top: 10px
+	}
+.app{
+	width: 90%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.storeBox{
+	height: auto;
+	width: 130px;
+	padding-top: 0px;
+	float: right;
+}
+/*.sfbBox{	width: 90%;}*/
+.youtube2{margin-top: 30px;}
+.gameBox{margin-top: -150px;}
+.ad_news{margin-top: 220px;	}
+	}
+@media (max-width:767px) {.mclose{display: none;}}
